@@ -64,7 +64,7 @@ Template Name: Speakers
                             <span><?php the_field('speakers_card-text'); ?></span>
                         </div>
                         <div class="speakers__item-btn btn">
-                            <a href="<?php echo get_permalink(); ?>">
+                            <a href="http://topforum/speakerdetail">
                                 Learn more
                             </a>
                         </div>
@@ -75,102 +75,6 @@ Template Name: Speakers
                     wp_reset_postdata(); // сброс
                 ?>
                 
-                <!-- <div class="speakers__item">
-                    <div class="speakers__item-logo">
-                        <div class="speakers__item-logo-wrapper">
-                            <img src="./assets/img/speakers/speaker2.jpg" alt="logo2">
-                        </div>
-                    </div>
-                    <div class="speakers__item-title">Olivia Ava</div>
-                    <div class="speakers__item-text">
-                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</span>
-                    </div>
-                    <div class="speakers__item-btn btn">
-                        <a href="./speakerdetail.html">
-                            Learn more
-                        </a>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-logo">
-                        <div class="speakers__item-logo-wrapper">
-                            <img src="./assets/img/speakers/speaker3.jpg" alt="logo3">
-                        </div>
-                    </div>
-                    <div class="speakers__item-title">Emily Harper</div>
-                    <div class="speakers__item-text">
-                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</span>
-                    </div>
-                    <div class="speakers__item-btn btn">
-                        <a href="./speakerdetail.html">
-                            Learn more
-                        </a>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-logo">
-                        <div class="speakers__item-logo-wrapper">
-                            <img src="./assets/img/speakers/speaker4.jpg" alt="logo5">
-                        </div>
-                    </div>
-                    <div class="speakers__item-title">Alexander Mason</div>
-                    <div class="speakers__item-text">
-                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</span>
-                    </div>
-                    <div class="speakers__item-btn btn">
-                        <a href="./speakerdetail.html">
-                            Learn more
-                        </a>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-logo">
-                        <div class="speakers__item-logo-wrapper">
-                            <img src="./assets/img/speakers/speaker5.jpg" alt="logo4">
-                        </div>
-                    </div>
-                    <div class="speakers__item-title">Ryan Owen</div>
-                    <div class="speakers__item-text">
-                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</span>
-                    </div>
-                    <div class="speakers__item-btn btn">
-                        <a href="./speakerdetail.html">
-                            Learn more
-                        </a>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-logo">
-                        <div class="speakers__item-logo-wrapper">
-                            <img src="./assets/img/speakers/speaker6.jpg" alt="logo6">
-                        </div>
-                    </div>
-                    <div class="speakers__item-title">Henry Matthew</div>
-                    <div class="speakers__item-text">
-                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</span>
-                    </div>
-                    <div class="speakers__item-btn btn">
-                        <a href="./speakerdetail.html">
-                            Learn more
-                        </a>
-                    </div>
-                </div>
-                <div class="speakers__item">
-                    <div class="speakers__item-logo">
-                        <div class="speakers__item-logo-wrapper">
-                            <img src="./assets/img/speakers/speaker7.jpg" alt="logo7">
-                        </div>
-                    </div>
-                    <div class="speakers__item-title">Luke Carter</div>
-                    <div class="speakers__item-text">
-                        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</span>
-                    </div>
-                    <div class="speakers__item-btn btn">
-                        <a href="./speakerdetail.html">
-                            Learn more
-                        </a>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
